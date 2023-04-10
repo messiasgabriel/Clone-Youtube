@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="shortcut icon" href="../img/Papirus-Team-Papirus-Apps-Youtube.svg" type="image/x-icon">
+  <title>Youtube Clone</title>
+</head>
+
+<body>
+  <script src="sidebar.js" defer></script>
+  <script type="module" src="script.js" defer></script>
+  <header class="header"><!-- Header Starts -->
+    <div class="header-left">
+      <i id="menu" class="material-icons">menu</i>
+      <img class="logo-yt" src="../img/YouTube-Logo.wine.svg" alt="Youtube Logo">
+    </div>
+
+    <div class="header-search">
+      <form action="">
+        <input class="inputSearch" type="search" placeholder="Search" />
+        <button class="btnSearch"><i class="material-icons">search</i></button>
+      </form>
+    </div>
+
+    <nav class="header-icons">
+      <i class="material-icons display-this">search</i>
+      <i class="material-icons">videocam</i>
+      <i class="material-icons">apps</i>
+      <i class="material-icons">notifications</i>
+      <i class="material-icons display-this">account_circle</i>
+    </nav>
+  </header><!-- Header Ends -->
+
+  <main class="mainBody"><!-- Main Body Starts -->
+    <div class="sidebar"><!-- Sidebar Starts -->
+      <div class="sidebar-categories">
+        <div class="sidebar-category">
+          <i class="material-icons">home</i>
+          <span>Home</span>
+        </div>
+        <div class="sidebar-category">
+          <i class="material-icons">local_fire_department</i>
+          <span>Trending</span>
+        </div>
+        <div class="sidebar-category">
+          <i class="material-icons">subscriptions</i>
+          <span>Subcriptions</span>
+        </div>
+      </div>
+      <hr />
+      <div class="sidebar-categories">
+        <div class="sidebar-category">
+          <i class="material-icons">library_add_check</i>
+          <span>Library</span>
+        </div>
+        <div class="sidebar-category">
+          <i class="material-icons">history</i>
+          <span>History</span>
+        </div>
+        <div class="sidebar-category">
+          <i class="material-icons">play_arrow</i>
+          <span>Your Videos</span>
+        </div>
+        <div class="sidebar-category">
+          <i class="material-icons">watch_later</i>
+          <span>Watch Later</span>
+        </div>
+        <div class="sidebar-category">
+          <i class="material-icons">thumb_up</i>
+          <span>Liked Videos</span>
+        </div>
+      </div>
+      <hr />
+    </div><!-- Sidebar Ends -->
+
+    <section class="videos"><!-- Videos Section -->
+      <h1>Recommended</h1>
+      <div class="videos-container">
+        <div id="youtube-results"></div>
+      </div>
+    </section><!-- Videos Section end -->
+  </main> <!-- Main Body Ends -->
+
+</body>
+
+</html>
