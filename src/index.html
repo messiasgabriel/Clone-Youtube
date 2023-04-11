@@ -12,21 +12,16 @@
 </head>
 
 <body>
-  <script src="sidebar.js" defer></script>
   <script type="module" src="script.js" defer></script>
   <header class="header"><!-- Header Starts -->
     <div class="header-left">
       <i id="menu" class="material-icons">menu</i>
       <img class="logo-yt" src="../img/YouTube-Logo.wine.svg" alt="Youtube Logo">
     </div>
-
     <div class="header-search">
-      <form action="">
-        <input class="inputSearch" type="search" placeholder="Search" />
-        <button class="btnSearch"><i class="material-icons">search</i></button>
-      </form>
+      <input class="inputSearch" type="text" placeholder="Search" />
+      <button class="btnSearch"><i class="material-icons">search</i></button>
     </div>
-
     <nav class="header-icons">
       <i class="material-icons display-this">search</i>
       <i class="material-icons">videocam</i>
@@ -35,7 +30,6 @@
       <i class="material-icons display-this">account_circle</i>
     </nav>
   </header><!-- Header Ends -->
-
   <main class="mainBody"><!-- Main Body Starts -->
     <div class="sidebar"><!-- Sidebar Starts -->
       <div class="sidebar-categories">
@@ -79,13 +73,11 @@
     </div><!-- Sidebar Ends -->
 
     <section class="videos"><!-- Videos Section -->
-      <h1>Recommended</h1>
       <div class="videos-container">
         <div id="youtube-results"></div>
       </div>
     </section><!-- Videos Section end -->
   </main> <!-- Main Body Ends -->
-
 </body>
 
 </html>
