@@ -1,5 +1,6 @@
 const API_KEY = "AIzaSyBWcY-Ki7ACo9W6t-z0fwa9RatDfMxyQGA";
 const ENDPOINT = "https://www.googleapis.com/youtube/v3/search";
+const CHANNEL = "GET https://www.googleapis.com/youtube/v3/channels";
 const SEARCH_BUTTON = document.querySelector(".btnSearch");
 const SEARCH_INPUT = document.querySelector(".inputSearch");
 
